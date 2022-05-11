@@ -11,7 +11,8 @@
 function abbrevName(name){
     const twoName = name.split(' ');
         let firstTwoLetter = twoName[0].charAt(0) + '.' + twoName[1].charAt(0);
+        firstTwoLetter = firstTwoLetter.toUpperCase();
         console.log(firstTwoLetter);
 }
 
-abbrevName('Nagy Sándor')
+abbrevName('nagy sándor')
