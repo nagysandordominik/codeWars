@@ -10,7 +10,7 @@
 
 function shortcut (string) {
     string = string.replace(/[aeiou]/g,'');
-    return string;
+    console.log(string)
   }
 
 shortcut('HELLO')
